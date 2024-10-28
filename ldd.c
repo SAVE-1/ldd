@@ -1,5 +1,7 @@
 #include <linux/proc_fs.h>
 
+// https://youtu.be/iSiyDHobXHA?t=15322
+
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Sami Vevari");
 MODULE_DESCRIPTION("Basic read loadable kernel module -- following this (Linux Device Drivers Development Course for Beginners) https://youtu.be/iSiyDHobXHA tutorial by Piyush Itankar");
