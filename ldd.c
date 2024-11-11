@@ -8,6 +8,9 @@ MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Sami Vevari");
 MODULE_DESCRIPTION("Basic read loadable kernel module -- following this tutorial (Linux Device Drivers Development Course for Beginners) https://youtu.be/iSiyDHobXHA by Piyush Itankar");
 
+// Version of form [<epoch>:]<version>[-<extra-version>].
+MODULE_VERSION("0:1.0-rusty");
+
 static struct proc_dir_entry *custom_proc_node;
 
 static ssize_t pyjama_read(struct file *file_pointer, 
