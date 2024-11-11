@@ -1,5 +1,9 @@
 # Setting up remote SSH visual studio code, Ubuntu
 
+## Requirements
+- Ubuntu
+	- multipass is a recomended simple way, WSL might be good too, but you can run into problems as you might accidently corrupt the kernel (I think this is unlikely thought, but multipass makes it easy to recreate the env)
+
 Primary:
 - Setup the primary machine to accept SSH connections using password.
 	- Edit a file and restart a few services
@@ -23,8 +27,6 @@ KbdInteractiveAuthentication no -> KbdInteractiveAuthentication yes
 
 sudo systemctl daemon-reload
 sudo service ssh restart
-
-sudo passwd ubuntu
 
 # install utilities
 sudo apt update
